@@ -1,8 +1,26 @@
+1 - Strings
 -----------------------------------------------------------------------------------------------------------------------------------
-1 - Desafio: Identificar e exibir o nome do cliente através da palavra-chave usada para iniciar o processo de saneamento. (LOCJAN22, PUCFEV22...)
-Aplicar: criação de variável, input, str, print.
+Desafio (Udemy): Criar variáveis para nome (str), idade (int), altura (float), peso (float) de uma pessoa. 
+Obter apenas o ano de nascimento.
+Obter o IMC (peso/altura^2) com 2 casas decimais.
+Exibir um texto com todos os valores na tela usando F-strings com chaves.
 
+Solução:
+nome = str(input("Digite o nome:"))
+idade = int(input("Digite a idade:"))
+altura = float(input("Digite a altura:"))
+peso = float(input("Digite o peso:"))
+
+IMC = peso/(altura*altura)
+
+print(f"Nome: {nome}\n Idade: {idade}\n Altura: {altura}\n Peso: {peso}\n IMC: {IMC:.2f}")
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Desafio (SAM): Identificar e exibir o nome do cliente através da palavra-chave usada para iniciar o processo de saneamento. (LOCJAN22, PUCFEV22...)
+
+Solução:
 palavra_chave = str(input('Informe a palavra-chave:')) 
 if palavra_chave[:3] == "LOC":
     cliente = "LOCALIZA"  
 print(cliente)
+-----------------------------------------------------------------------------------------------------------------------------------
