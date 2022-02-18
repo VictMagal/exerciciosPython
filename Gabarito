@@ -1,0 +1,8 @@
+# 1 -----------------------------------------------------------------------------------------------------------------------------------
+# Desafio: Identificar e exibir o nome do cliente através da palavra-chave usada para iniciar o processo de saneamento. (LOCJAN22, PUCFEV22...)
+# Aprender: criar uma variável, input, str, print
+
+palavra_chave = str(input('Informe a palavra-chave:')) 
+if palavra_chave[:3] == "LOC":
+    cliente = "LOCALIZA"  
+print(cliente)
