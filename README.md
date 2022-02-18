@@ -1,11 +1,8 @@
 # Exercícios Básicos
-1. Strings
-2. Operadores aritiméticos
-3. IF, ELSE, ELIF + BOLEANOS
-4. Formatando valores (int, str, float, list, dict)
-5. Estrutura de repetição (while, for)
-6. Listas
-7. Funções (def)
-8. Lambda
-9. Tuplas
-10. Dicionários
+Semana 1. Strings, Operadores aritiméticos, IF, Formatando valores (int, str, float).
+
+Semana 2. IF, ELSE, ELIF, BOLEANOS, Estrutura de repetição (while, for)
+
+Semana 3. Listas, Tuplas, Dicionários, Lambda
+
+Semana 4. Funções (def)
